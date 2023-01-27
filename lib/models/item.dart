@@ -1,10 +1,10 @@
-class Number {
+class Item {
   final String engWord;
   final String japWord;
   final String imgUrl;
   final String soundUrl;
 
-  const Number({
+  const Item({
     required this.engWord,
     required this.japWord,
     required this.imgUrl,

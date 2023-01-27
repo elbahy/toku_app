@@ -1,9 +1,9 @@
 import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
-import 'package:toku_app/models/number.dart';
+import 'package:toku_app/models/item.dart';
 
 class ListItem extends StatelessWidget {
-  final Number number;
+  final Item number;
   ListItem(this.number);
   @override
   Widget build(BuildContext context) {
